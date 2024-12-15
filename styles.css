@@ -1,0 +1,81 @@
+.menu {
+    list-style: none;
+    display: flex;
+  }
+  .menu__item a {
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .menu-item a:hover {
+    background: blue;
+    color: white;
+  }
+  
+  .opt {
+    width: 150px;
+    display: block;
+  }
+  
+  
+  .footer__columns {
+   display: flex;
+  }
+  
+  .footer__column {
+   flex: 33%;
+   padding:10px;
+  }
+  
+  .copyright{
+   text-align: center;
+  }
+  
+  footer {
+    background-color: grey;
+    color:white;
+  }
+  
+  .more-button {
+    text-decoration: none;
+    background: green;
+    padding: 10px;
+    color: white;
+    border-radius: 8PX;
+  }
+  
+  .gari {
+    width: 150px;
+    display: block;
+  }
+  
+  .Odin {
+    width: 150px;
+    display: block;
+  }
+
+  .cards {
+      background: #153f17;
+      display: flex;
+  }
+
+  .card {
+    width: 250px;
+    background:white;
+    border: 1px solid #3f6a82;
+    padding: 10px;
+    border-radius: 8px
+  }
+
+  .card__image {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .card__name {
+    text-align: center;
+  }
